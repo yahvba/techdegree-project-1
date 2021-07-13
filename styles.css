@@ -8,18 +8,24 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
+  color: black;
   background: #f7f5f0;
 }
-/* Link Styles */
+/* link styles */
 
-a {
-  text-decoration: none;
-  color: #999;
+a{
+  color: white;
+  text-decoration: white;
 }
 a:hover {
-  color: #6633ff;
+  color: white;
+  font-size: larger;
 }
+
+a.class2{
+  color: black;
+}
+/* classed link styles, appropriate for main area */
 
 /* Section Styles */
 
@@ -57,10 +63,11 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/sydney.png') no-repeat top center ;
+  background: url("images/sydney.jpeg");
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 100px;
+  color: black;
 }
 header {
   line-height: 1.5;
@@ -77,28 +84,32 @@ header .profile-image:hover {
   transform: scale(1.5) rotate(5deg);
 }
 .tag {
-  color: black;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
+
+.experience{
+  padding-top: 100px;
+}
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: black;
+  color: white;
 }
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
+  margin: 10px;
+  padding: 20px 20px 20px;
+  min-width: 425px;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: black;
 }
 
 ul.skills {
@@ -119,15 +130,17 @@ ul.skills {
   background: #0399ff;
 }
 
+
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 20px 20px;
 }
 
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  color: black;
 }
 
 footer ul {
@@ -172,19 +185,19 @@ a.social:hover {
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
-      max-width: 1200px;
+      max-width: 720px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
 
   header {
-    min-height: 470px;
+    min-height: 250px;
   }
 
   .nav {
     max-width: 1200px;
-    padding: 0 30px;
+    padding: 10px;
   }
 
 
